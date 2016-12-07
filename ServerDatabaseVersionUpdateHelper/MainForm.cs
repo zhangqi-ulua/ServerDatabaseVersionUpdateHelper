@@ -150,7 +150,7 @@ namespace ServerDatabaseVersionUpdateHelper
             else
                 text = rtxResult.Text;
 
-            Clipboard.SetData(DataFormats.Text, rtxResult.Text);
+            Clipboard.SetData(DataFormats.Text, text);
             MessageBox.Show("已成功复制到剪贴板", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
